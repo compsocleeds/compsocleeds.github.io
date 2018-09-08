@@ -14,4 +14,4 @@ Get ready to boot things up with a bang! So when your CPU gets over-worked, come
 
 So far this semester, we've got a whole host of activities planned including LAN parties, Hackathons, Tech Talks, Coding Challenges and some big nights out as part of the Faculty of Engineering so bring your friends and come and get involved!
 
-![Find Out More](https://www.luu.org.uk/computing/)
+[Buy Membership](https://classic.luu.org.uk/groups/compsoc/)
