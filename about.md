@@ -11,4 +11,5 @@ If you want to join find us at [Buy Membership](https://classic.luu.org.uk/group
 ## Contact Us
 
 IRC: [#luucompsoc](https://webchat.freenode.net/) on freenode
+
 Email: [Mugurel](mailto:sc17mae@leeds.ac.uk)
