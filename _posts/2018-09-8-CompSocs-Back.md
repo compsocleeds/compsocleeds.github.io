@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CompSocs Back"
+title: "CompSoc's Back"
 author: "Benjamin Chalmers"
 ---
 
