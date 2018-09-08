@@ -1,0 +1,29 @@
+# Site settings
+title:          LUU CompSoc
+description:    "Computer tings"
+baseurl:        "/"
+url:            "https://compsocleeds.github.io"
+
+# Author
+author:
+  name:         Benjamin Chalmers
+  url:          http://benja.minchalme.rs
+  email:        sc17b3c@leeds.ac.uk
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
