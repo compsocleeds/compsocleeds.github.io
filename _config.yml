@@ -27,3 +27,9 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+    title: Events
