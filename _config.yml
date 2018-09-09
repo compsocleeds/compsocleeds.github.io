@@ -8,6 +8,7 @@ url:            "https://compsocleeds.github.io"
 collections:
   events:
     output: true
+    permalink: /events/:title
 
 # Author
 author:
