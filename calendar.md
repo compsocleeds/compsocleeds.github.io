@@ -51,8 +51,15 @@ $(document).ready(function() {
 }
 	})
 
+if ($(window).width() < 960) {
+  $('#calendar').fullCalendar('option', 'aspectRatio', 0.8);
+}
+if ($(window).width() > 960) {
+  $('#calendar').fullCalendar('option', 'aspectRatio', 1.35);
+}
+
 });
 
 </script>
 
-<div style="padding-top: 10px;" id="calendar"></div>
+<div style="padding-top: 10px; height: 80vh;" id="calendar"></div>
