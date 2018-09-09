@@ -5,10 +5,10 @@ baseurl:        ""
 url:            "https://luucompsoc.github.io"
 
 #collections
-#collections:
-#  events:
-#    output: true
-#    permalink: /events/:title
+collections:
+  ex_events:
+    output: true
+    permalink: /events/:title
 
 # Author
 author:
