@@ -5,10 +5,10 @@ baseurl:        ""
 url:            "https://compsocleeds.github.io"
 
 #collections
-collections:
-  events:
-    output: true
-    permalink: /events/:title
+#collections:
+#  events:
+#    output: true
+#    permalink: /events/:title
 
 # Author
 author:

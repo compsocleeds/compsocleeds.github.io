@@ -17,7 +17,8 @@ $(document).ready(function() {
 	$('#calendar').fullCalendar({
 		events:
 [
-{% for event in site.events %}
+{% for event in site.posts %}
+{% if event.layout == "event" %}
 	{
 		"title":"{{event.title}}",
 		"start": "{{event.event_start |date_to_xmlschema}}",
@@ -25,6 +26,7 @@ $(document).ready(function() {
 		"url":"{{site.url}}{{event.url}}"
 	}
 	{%unless forloop.last %},{%endunless%}
+{% endif %}
 {% endfor %}
 ],
     timezone: 'UTC',
