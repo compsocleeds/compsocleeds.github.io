@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "SoC After Party Night Out"
+title: "University of Leeds Freshers Fair"
 host: Mugurel-Adrian Enache
 location_start: Riley Smith Theatre
 event_start: 2018-09-26T11:00:00
