@@ -15,7 +15,18 @@ permalink: /calendar/
 $(document).ready(function() {
 
 	$('#calendar').fullCalendar({
-		events:'/calendar-json',
+		events:
+[
+{% for event in site.events %}
+	{
+		"title":"{{event.title}}",
+		"start": "{{event.event_start |date_to_xmlschema}}",
+		"end": "{{event.event_end | date_to_xmlschema }}",
+		"url":"{{site.url}}{{event.url}}"
+	}
+	{%unless forloop.last %},{%endunless%}
+{% endfor %}
+],
     timezone: 'UTC',
     timeFormat: 'H(:mm)',
     header: {
