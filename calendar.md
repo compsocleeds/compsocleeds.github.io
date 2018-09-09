@@ -15,7 +15,32 @@ permalink: /calendar/
 $(document).ready(function() {
 
 	$('#calendar').fullCalendar({
-		events: '/calendar-json',
+		events:
+[
+{
+		"title":"padding",
+		"start": "0",
+		"end": "1"
+}
+{% for event in site.posts %}
+{% if event.layout == "event" %}
+	,{
+		"title":"{{event.title}}",
+		"start": "{{ event.event_start | date_to_xmlschema }}",
+		"end": "{{ event.event_end | date_to_xmlschema }}",
+		"url":"{{site.url}}{{event.url}}"
+	}
+{% endif %}
+{% endfor%}
+{% for eventt in site.ex_events %}
+	,{
+		"title":"{{eventt.title}}",
+		"start": "{{ eventt.event_start | date_to_xmlschema }}",
+		"end": "{{ eventt.event_end | date_to_xmlschema }}",
+		"url":"{{eventt.event_url}}"
+	}
+{% endfor%}
+],
     timezone: 'UTC',
     timeFormat: 'H:mm',
     defaultView: 'listMonth',
