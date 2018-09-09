@@ -4,6 +4,11 @@ description:    "Computer tings"
 baseurl:        ""
 url:            "https://compsocleeds.github.io"
 
+#collections
+collections:
+  events:
+    output: true
+
 # Author
 author:
   name:         Benjamin Chalmers
@@ -28,8 +33,4 @@ plugins:
 permalink:      /:year-:month-:day/:title
 paginate:       5
 
-collections:
-  events:
-    label: events
-    output: true
-    permalink: /:collection/:title
+
