@@ -1,7 +1,7 @@
 # Site settings
 title:          LUU CompSoc
 description:    "Computer tings"
-baseurl:        "/"
+baseurl:        ""
 url:            "https://compsocleeds.github.io"
 
 # Author
@@ -30,6 +30,6 @@ paginate:       5
 
 collections:
   events:
+    label: events
     output: true
-    permalink: /events/:path/
-    title: Events
+    permalink: /:collection/:title
