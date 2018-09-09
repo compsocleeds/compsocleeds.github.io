@@ -62,4 +62,4 @@ if ($(window).width() > 960) {
 
 </script>
 
-<div style="padding-top: 10px; height: 80vh;" id="calendar"></div>
+<div style="padding-top: 10px" id="calendar"></div>
