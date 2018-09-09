@@ -31,9 +31,10 @@ $(document).ready(function() {
 ],
     timezone: 'UTC',
     timeFormat: 'H(:mm)',
+    defaultView: 'listWeek'
     header: {
   left:   'title',
-  center: 'month,agendaWeek,agendaDay',
+  center: 'month,agendaWeek,listMonth',
   right:  'today prev,next'
 }
 	})
