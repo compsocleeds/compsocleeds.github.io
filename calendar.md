@@ -30,7 +30,7 @@ $(document).ready(function() {
 {% endfor %}
 ],
     timezone: 'UTC',
-    timeFormat: 'H(:mm)',
+    timeFormat: 'H:mm',
     defaultView: 'listMonth',
     header: {
   left:   'title',
