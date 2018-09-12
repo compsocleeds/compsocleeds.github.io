@@ -4,7 +4,7 @@ title: "Laptop Stickers!"
 author: "Aitor Loyens Fernandez"
 ---
 
-[sticker pic] (https://imgur.com/a/72WZE7R)
+![sticker pic](https://i.imgur.com/T83xFeq.jpg)
 
 CompSoc is back in business with a bang, baby!!! We've been through a rough patch these last few years so what better way to kick off our comeback year with free stuff (everybody loves free stuff), right?
 
