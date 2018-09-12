@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "SoC After Party Night Out"
-host: Aitor
+host: Aitor Loyens Fernandez
 location_start: the longroom
 event_start: 2018-09-28T18:20:00
 event_end: 2018-09-29T00:00:00
