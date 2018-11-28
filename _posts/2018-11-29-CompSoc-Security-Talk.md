@@ -14,3 +14,5 @@ There will be two speakers: Dr. Sam Wilson (University of Leeds) and Dr. Răzvan
 Join us on 29 November, from 6PM in the Active Learning Lab, School of Computing, Level 9, to find more.
 
 CompSoc
+
+![poster_pic](https://i.imgur.com/KORM1Bk.jpg)
